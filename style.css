@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#navbar{
+    background:rgba(116, 198, 157, 1);
+    position: fixed;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    z-index: 1;
+    width: 100%;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 3px 30px;
+    display: block;
+    border-radius: 20px;
+}
+#logo{
+    margin: 7px 24px;
+}
+#logo img{
+    padding-left: 100px;
+    height: 60px;
+    margin: 3px 6px;
+}
+#Home{
+    padding: 2px;
+    height: 100vh;
+    margin: 0;
+    background:rgba(116, 198, 157, 1);
+}
+#Home h1{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+#Home p{
+    width: 28%;
+    gap: 30px;
+    font-size: 30px;
+}
+.btnone{
+    text-transform: uppercase;
+    width: 110px;
+    background-color:black;
+    padding: 6px 20px;
+    font-size: 1rem;
+    border:none;
+    margin: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btnone:hover{
+    background:blue;
+}
+#banner{
+    padding-top: 130px;
+    position: absolute;
+    right: 15px;
+    height:100%;
+    }
+
+.h-primary{
+    width: 100%;
+    padding: 120px;
+    gap: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+/* section 2 */
+#partner img{
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-self: center;
+}
+.parafirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding:20px;
+}
+.parafirst h1{
+    text-transform: uppercase;
+    color:rgba(116, 198, 157, 1) ;
+}
+.parafirst p , h3{
+    color: #000;
+}
+.parafirst h3{
+    font-size: 30px;
+}
+.btntwo{
+    text-transform: uppercase;
+    width: 110px;
+    background-color:black;
+    font-size: 15px;
+    height: 30px;
+    border:none;
+    margin: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.para h2, p{
+    color: #000;
+}
+.para {
+    font-size: small;
+    padding: 30px;
+    color: #000;
+    display: flex; 
+    gap:30px; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#paraone img{
+    padding: 10px;
+float: left;
+}
+#paratwo img{
+    float: right;
+    }
+
+div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+    
+/* section 3 */
+#teams button{
+    text-transform: uppercase;
+    width: 110px;
+    background-color:black;
+    font-size: 15px;
+    height: 30px;
+    border:none;
+    margin: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+#teams h3{
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 30px;
+    color: rgba(116, 198, 157, 1);
+}
+#cards{
+    display: flex;
+}
+#footer{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background: rgba(116, 198, 157, 1);
+    width: 100%;
+}
+.footer{
+    margin-left: 50px;
+}
+#footer img{
+    padding: 4px;
+    margin: 3px;
+}
+#cards b,span{
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+#cards b{
+    color: rgba(116, 198, 157, 1);
+}
+#cards div{
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border:1px solid black;
+}
+.footer p{
+    position: absolute  ;
+    right:0;
+    color:#000;
+}
